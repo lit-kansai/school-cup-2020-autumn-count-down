@@ -1,4 +1,5 @@
 window.onload = () => {
+  const message = document.querySelector("#message")
   const countdown = document.querySelector("#countdown")
   const deadline = dayjs('2021-02-21 16:30:00')
   
@@ -15,7 +16,8 @@ window.onload = () => {
       diff -= 1000 * sec;
       countdown.innerText = `${zeroPad(day)}日 ${zeroPad(hour)}時間 ${zeroPad(min)}分 ${zeroPad(sec)}秒`;
     } else {
-      // countdown.innerText = 
+      message.innerText = "作品提出期間は終了しました！"
+      countdown.innerText = "お疲れさまでした！"
     }
     setTimeout(timer,100)
   }
