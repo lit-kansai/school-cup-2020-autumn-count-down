@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Yellowtail&family=Yusei+Magic&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Yellowtail&family=Yusei+Magic&display=swap");
 
 @font-face {
   font-family: "skywalker";
@@ -13,8 +13,8 @@
 }
 
 body {
-  font-family: YuGothic, 'Yu Gothic', sans-serif;
-  background-image: url(https://life-is-tech.com/schoolcup/images/header-cm.jpg);
+  font-family: YuGothic, "Yu Gothic", sans-serif;
+  background-image: url(https://lit-school-cup.assets.newt.so/v1/7896ebca-1c75-4591-b615-12708e2d101b/header-cm_3.png);
   display: flex;
   width: 100vw;
   height: 100vh;
@@ -22,8 +22,8 @@ body {
 }
 
 h1 {
-  font-family: 'skywalker', cursive;
-  color: #FFCD00;
+  font-family: "skywalker", cursive;
+  color: #ffcd00;
   font-size: 24pt;
 }
 
@@ -37,7 +37,7 @@ img {
 p {
   margin-top: 48px;
   font-size: 38pt;
-  font-family: 'Yusei Magic';
+  font-family: "Yusei Magic";
 }
 
 #countdown {
@@ -49,7 +49,7 @@ p {
   width: 100%;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
   h1 {
     font-size: 20pt;
   }
@@ -72,7 +72,7 @@ p {
   }
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width: 500px) {
   h1 {
     font-size: 16pt;
   }
